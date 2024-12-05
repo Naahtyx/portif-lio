@@ -12,7 +12,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 color: #9e6d4e;
 background-color: #f3d7b7;
-
+font-size: 60px;
 }
 
 h1 {
@@ -36,9 +36,7 @@ color: #9e6d4e;
 text-decoration: none;
 }
 
-p {
-  font-size: 40px;
-}
+
 
 
 #burger {
@@ -61,8 +59,8 @@ menu {
     text-align: center;
     list-style-type: none;
     width: 90vw;
-    margin: auto;
-    
+    margin: 20px;
+    margin-right: auto                                                                                                                                                                                                                                                                                                                                                                                                                    ;
 }
 
 menu>ul {
@@ -79,7 +77,7 @@ menu>ul>li>a  {
     border-radius: 0px 0px 0px 0px;
     color: rgb(92, 79, 67);
     margin: 10px;
-
+    
 }
 
 menu>ul>li>a:hover {
@@ -114,6 +112,7 @@ main {
     menu>ul>li {
         display: inline-block;
         background-color: #f7e8cd;
+        
 
     }
 
@@ -145,6 +144,8 @@ main {
             background-image:url("../back-pc.jpg");
         }
     
+        
+
         #burger {
             display: none;
         }
@@ -162,6 +163,7 @@ main {
         main {
             width: 90vw;
             margin: 50px;
+            
         }
     
         article>h2 {
