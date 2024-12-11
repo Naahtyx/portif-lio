@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+
+
+
+html {
+    height: 100vh;
+}
+
+
+body {
+    font-family: 'Dancing Script', cursive;
+color: #9e6d4e;
+background-image: url(../../fundo.gif) ;
+font-size: 60px;
+border: 10px solid rgb(105, 77, 68);
+
+
+}
+
+h1 {
+   text-align: center;
+}
+
+img {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    border: 5px solid white; 
+    margin: 40px;
+    text-align: center;
+    
+}
+
+a {
+color: #9e6d4e;
+text-decoration: none;
+}
+
+
+
+
+#burger {
+    background-color: #b99670;
+    display: block;
+    color: rgb(231, 218, 207);
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    width: 90vw;
+    cursor: pointer;
+}
+
+#burger:hover {
+    background-color:#ab9678; 
+}
+
+menu {
+    color: whitesmoke;
+    text-align: center;
+    list-style-type: none;
+    width: 90vw;
+    margin: center;
+    margin-right: auto;
+    margin-left: 80px;
+}
+
+menu>ul {
+    list-style-type: none;
+}
+
+menu>ul>li>a  {
+    display: block;
+    padding: 7px;
+    padding-left: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f7e8cd;
+    border-radius: 0px 0px 0px 0px;
+    color: rgb(92, 79, 67);
+    margin: 10px;
+    text-align: center;
+    
+}
+
+menu>ul>li>a:hover {
+    background-color: #9c765d6b;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+main {
+    background-color: #f7e8cd;
+    width: 900vw;
+    margin: 20px;
+    border-radius: 7px 7px 0px 0px;
+    margin-top: 7px;
+    padding: 3px;
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   
+
+    menu {
+        display: block;
+        width: 90vw;
+        margin: auto;
+        background-image: url(../../fundo.gif) ;
+    }
+
+    menu>ul>li {
+        display: inline-block;
+        background-color: #f7e8cd6e;
+          border: solid 10px #f7e8cd;
+        
+
+    }
+
+    main {
+        width: 90vw;
+        margin: 50px;
+
+    }
+
+    article>h2 {
+        padding-bottom: 17px;
+        width: 90vw;
+        margin: auto;
+    }
+
+    article>p {
+        text-align: justify;
+        margin-bottom: 17px;
+        text-indent: 17px;
+    }
+
+    footer {
+        width: 90vw;
+        margin: auto;
+    }
+}
+
+    @media screen and (min-width: 993px) and (max-width: 1200px) {
+       
+    
+        
+
+        #burger {
+            display: none;
+        }
+    
+        menu {
+            display: block;
+            background-image: url(../../fundo.gif) ;
+            border: solid 10px #f7e8cd;
+        }
+    
+        menu>ul>li {
+            display: inline-block;
+            background-color: #f7e8cd6e;
+            border: solid 10px #f7e8cd;
+        }
+    
+        main {
+            width: 90vw;
+            margin: 50px;
+            
+        }
+    
+        article>h2 {
+            padding-bottom: 17px;
+        }
+    
+        article>p {
+            text-align: justify;
+            margin-bottom: 17px;
+            text-indent: 17px;
+        }
+    
+        footer {
+            width: 90vw;
+            margin: auto;
+        }
+    }
+    
+        @media screen and (min-width: 1201px) 
+        
+        {
+           
+        
+            #burger {
+                display: none;
+            }
+        
+            menu {
+                display: block;
+               
+                border: solid 10px #f7e8cd;
+            }
+        
+            menu>ul>li {
+                display: inline-block;
+                background-color: #f7e8cd6e;
+                border: solid 10px #f7e8cd;
+            }
+        
+            main {
+                width: 90vw;
+                margin: 100px;
+            }
+        
+            article>h2 {
+                padding-bottom: 17px;
+            }
+        
+            article>p {
+                text-align: justify;
+                margin-bottom: 17px;
+                text-indent: 17px;
+            }
+        
+            footer {
+                width: 90vw;
+                margin: auto;
+            }
+        }
